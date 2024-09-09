@@ -1,8 +1,3 @@
-
-
-#containerID = `docker ps | awk -F "" '{Print $1}'`
-#docker rm -f $containerID 
-
 #!/bin/bash
 
 # Get the ID of the most recently started running container
